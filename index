@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pesan untuk Teman Yasmine</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+      :root {
+        --color-bg: #ffffff;
+        --color-text-primary: #0f2a59; /* dark navy blue */
+        --color-text-secondary: #6b7280; /* neutral gray */
+        --color-card-bg: #ffffff;
+        --color-shadow: rgba(15, 42, 89, 0.1); /* subtle navy shadow */
+        --border-radius: 12px; /* 0.75rem */
+        --max-container-width: 1200px;
+        --max-content-width: 720px;
+        --padding-vertical: 4rem;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background-color: var(--color-bg);
+        font-family: "Poppins", sans-serif;
+        color: var(--color-text-secondary);
+        display: flex;
+        justify-content: center;
+        padding: var(--padding-vertical) 1.5rem;
+        min-height: 100vh;
+      }
+      .container {
+        max-width: var(--max-container-width);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      main {
+        max-width: var(--max-content-width);
+        width: 100%;
+      }
+      .card {
+        background-color: var(--color-card-bg);
+        box-shadow: 0 6px 16px var(--color-shadow);
+        border-radius: var(--border-radius);
+        padding: 3rem 2.5rem;
+      }
+      h1 {
+        margin: 0 0 1rem 0;
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.1;
+        color: var(--color-text-primary);
+        user-select: none;
+      }
+      p {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        margin: 0;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main role="main" aria-labelledby="message-title">
+        <article class="card">
+          <h1 id="message-title">Pesan untuk Teman Yasmine</h1>
+          <p>buat yang when when smoga cepat ktemu jodohnya ya, sehat sehat selalu teman-teman nya yasmine ama semangat buat laprak + uasnya</p>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
